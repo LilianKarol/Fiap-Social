@@ -1,0 +1,9 @@
+<section>
+    <form [formGroup]="checkoutForm" (ngSubmit)="login()">
+      <img src="/assets/logo.png" />
+      <input type="email" formControlName="email" placeholder="E-mail" />
+      <input type="password" formControlName="password" placeholder="Senha" />
+  
+      <button>Entrar</button>
+    </form>
+  </section>
